@@ -10,3 +10,5 @@ lazy val root = (project in file(".")).
     name := "Hello",
     libraryDependencies += scalaTest % Test
   )
+
+scalafmtOnCompile in ThisBuild := true
